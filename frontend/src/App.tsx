@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+
+import './FeedbackForm.css'; 
+import './FeedbackList.css'; 
 import FeedbackForm from './components/FeedbackForm';
 import FeedbackList from './components/FeedbackList';
 import { Feedback } from './types';
